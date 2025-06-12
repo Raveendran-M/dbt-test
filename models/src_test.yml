@@ -1,0 +1,10 @@
+sources:
+  - name: landing                  
+    database: raveetest
+    tables:
+      - name: cust                   
+        identifier: customers
+      - name: orde
+        identifier: orders
+      - name: ordritms
+        identifier: order_items

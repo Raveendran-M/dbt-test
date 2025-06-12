@@ -1,0 +1,1 @@
+SELECT OrderID from {{ ref('orders_fact') }} WHERE revenue < 51;
